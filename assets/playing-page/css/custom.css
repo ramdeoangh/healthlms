@@ -1,0 +1,27 @@
+/* New Progress */
+.progress-bar {
+    margin: auto;
+	color: inherit;
+	background-color: transparent;
+}
+.progress-bar .left {
+	background-color: tomato;
+}
+.progress-bar div {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent; 
+}
+.ct-tabs-custom-one {
+    scrollbar-width: none;
+}
+#certificate-content {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}

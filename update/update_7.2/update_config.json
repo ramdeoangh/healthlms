@@ -1,0 +1,84 @@
+{
+    "require_version": "7.1",
+	"directory": [],
+    "sql_file": "",
+    "libraries": [],
+    "files": [       
+        {
+            "root_directory": "update/update_7.2/assets/frontend/default-new/css/style.css",
+            "update_directory": "assets/frontend/default-new/css/style.css"
+        },
+        {
+            "root_directory": "update/update_7.2/application/controllers/Admin.php",
+            "update_directory": "application/controllers/Admin.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/controllers/Home.php",
+            "update_directory": "application/controllers/Home.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/models/Crud_model.php",
+            "update_directory": "application/models/Crud_model.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/backend/admin/navigation.php",
+            "update_directory": "application/views/backend/admin/navigation.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/backend/admin/announcement_add.php",
+            "update_directory": "application/views/backend/admin/announcement_add.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/backend/admin/announcement_edit.php",
+            "update_directory": "application/views/backend/admin/announcement_edit.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/backend/admin/announcements.php",
+            "update_directory": "application/views/backend/admin/announcements.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/components/main/footer.php",
+            "update_directory": "application/views/components/main/footer.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/components/main/footer2.php",
+            "update_directory": "application/views/components/main/footer2.php"
+        },   
+        {
+            "root_directory": "update/update_7.2/application/views/frontend/default-new/footer.php",
+            "update_directory": "application/views/frontend/default-new/footer.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/frontend/default-new/community_comments.php",
+            "update_directory": "application/views/frontend/default-new/community_comments.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/frontend/default-new/community_index.php",
+            "update_directory": "application/views/frontend/default-new/community_index.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/frontend/default-new/community_my_posts.php",
+            "update_directory": "application/views/frontend/default-new/community_my_posts.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/frontend/default-new/community_saved_posts.php",
+            "update_directory": "application/views/frontend/default-new/community_saved_posts.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/frontend/default-new/community_scripts.php",
+            "update_directory": "application/views/frontend/default-new/community_scripts.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/frontend/default-new/community_shared_post.php",
+            "update_directory": "application/views/frontend/default-new/community_shared_post.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/frontend/default-new/community_sidebar.php",
+            "update_directory": "application/views/frontend/default-new/community_sidebar.php"
+        },
+        {
+            "root_directory": "update/update_7.2/application/views/lessons/bottom_tabs.php",
+            "update_directory": "application/views/lessons/bottom_tabs.php"
+        }       
+    ]
+}
