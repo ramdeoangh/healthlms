@@ -1384,7 +1384,7 @@ class Api_model extends CI_Model
         $lesson_total_duration = $this->db->get_where('lesson', array('id' => $data['watched_lesson_id']))->row('duration');
         $lesson_total_duration = explode(':', $lesson_total_duration);
         $lesson_total_seconds = ($lesson_total_duration[0] * 3600) + ($lesson_total_duration[1] * 60) + $lesson_total_duration[2];
-        $current_total_seconds = count($watched_duration_arr) * 5;
+        $current_total_seconds = max($current_duration, count($watched_duration_arr) * 5);
 
         if ($drip_content_settings['lesson_completion_role'] == 'duration') {
             if ($current_total_seconds >= $drip_content_settings['minimum_duration']) {
